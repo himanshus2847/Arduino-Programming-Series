@@ -9,7 +9,7 @@ void loop()
     analogWrite(10, i);
     delay(10);
   }
-  for(int j = 255; i >= 0; j--)
+  for(int j = 255; j >= 0; j--)
   {
     analogWrite(10, j);
     delay(10);
